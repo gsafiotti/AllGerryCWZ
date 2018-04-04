@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AllGerry</string>
+
+    <string name="title_activity_battle__cwz">Battle_CWZ</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>

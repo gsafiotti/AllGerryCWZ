@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:descendantFocusability="blocksDescendants">
+<LinearLayout
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    android:id="@+id/ll_text"
+    >
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/dario_mini"
+        android:id="@+id/imageView"
+        android:layout_margin="10dp"
+        android:adjustViewBounds="true" />
+
+</LinearLayout>
+
+    <TextView
+        android:text="Dario Amalfitano"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="25"
+        android:textSize="20dp"
+        android:id="@+id/textView3"
+        android:layout_marginLeft="31dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="31dp"
+        android:layout_alignTop="@+id/ll_text"
+        android:layout_toRightOf="@+id/ll_text"
+        android:layout_toEndOf="@+id/ll_text" />
+
+    <TextView
+        android:text="3335678345"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLength="25"
+        android:textSize="16dp"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/ll_text"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+</RelativeLayout>
