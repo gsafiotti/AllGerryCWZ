@@ -22,6 +22,30 @@
         android:layout_marginBottom="148dp"
         android:id="@+id/Brubrica" />
 
+    <Button
+        android:id="@+id/Bcwz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="77dp"
+        android:background="#ce1414"
+        android:padding="10dp"
+        android:text="Chicken War Z"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/brubrica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="148dp"
+        android:background="#ce1414"
+        android:padding="10dp"
+        android:text="Rubrica"
+        android:textColor="#ffffff" />
+
     <TextView
         android:text="Gerry's Apps"
         android:layout_width="wrap_content"

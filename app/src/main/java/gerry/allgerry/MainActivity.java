@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
     TextView titolo;
     Button tris_button;
     Button rubrica_button;
+    Button cwz_button;
     //Intent tris_i;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         tris_button= (Button) findViewById(R.id.Btris);
         rubrica_button= (Button) findViewById(R.id.Brubrica);
+        cwz_button= (Button) findViewById(R.id.Bcwz);
 
 
         tris_button.setOnClickListener(new View.OnClickListener() {
@@ -34,6 +36,15 @@ public class MainActivity extends AppCompatActivity {
                 //tris_i.putExtra("username", editText.getText().toString());
                 Intent rubrica_i = new Intent(MainActivity.this,RubricaActivity.class);
                 startActivity(rubrica_i);
+            }
+        });
+
+        cwz_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                //tris_i.putExtra("username", editText.getText().toString());
+                Intent cwz_i = new Intent(MainActivity.this,BattleCWZActivity.class);
+                startActivity(cwz_i);
             }
         });
     }
