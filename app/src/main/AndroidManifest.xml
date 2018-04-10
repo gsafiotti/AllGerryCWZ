@@ -24,11 +24,6 @@
         <activity android:name=".PersonaggiActivity" />
         <activity android:name=".RubricaActivity" />
         <activity android:name=".ContattoActivity" />
-        <activity
-            android:name=".Battle_CWZ2"
-            android:configChanges="orientation|keyboardHidden|screenSize"
-            android:label="@string/title_activity_battle__cwz"
-            android:theme="@style/FullscreenTheme" />
         <activity android:name=".BattleCWZActivity"></activity>
     </application>
 
